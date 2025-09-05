@@ -9,6 +9,10 @@ requirements = []
 path = 'contracts/Landmark.clar'
 clarity_version = 3
 epoch = 3.1
+[contracts.property-assessments]
+path = 'contracts/property-assessments.clar'
+clarity_version = 3
+epoch = 3.1
 [repl.analysis]
 passes = ['check_checker']
 
